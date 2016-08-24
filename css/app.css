@@ -1,0 +1,298 @@
+body{
+    background: #f7f7f7;
+    font-family: '微软雅黑';
+    min-width: 1200px !important;
+}
+h1,h2,h3,h4,h5,h6{
+    margin:0;
+    padding: 0;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+img{
+    border:0;
+}
+ol, ul ,li{list-style: none;} 
+.header{
+    height: 60px;
+    line-height: 60px;
+    background:#fff;
+    border-bottom: 1px solid #efefef;
+}
+.header img{
+    float: left;
+    width:71px;
+    height:45px;
+    margin-top: 7.5px;
+}
+.header .login {
+    float: right;
+    line-height: 60px;
+}
+.header h1{
+    font-size: 22px;
+    line-height: 60px;
+    margin: 0;
+    margin-left: 85px;
+}
+.nav {
+    margin-top: 10px;
+    width: 240px;
+    background: #fff;
+    padding-top: 50px;
+    padding-left: 40px;
+    height: 550px;
+    float: left;
+}
+.main {
+    margin-top: 10px;
+    margin-left: 250px;
+    height: 600px;
+    background: #fff;
+}   
+
+/* 登录模块的样式 */
+.whole-page {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: url(../images/header-bg.jpg) no-repeat;
+    background-size: cover;
+}
+.app-login .login-container {
+    background: #fff;
+    width: 400px;
+    margin: 100px auto;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+.app-login h2 {
+    height: 50px;
+    line-height: 50px;
+    border-bottom: 1px solid #efefef;
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.app-login .form-group {
+    padding: 10px 0;
+    line-height: 30px;
+    margin-bottom: 0px;
+}
+.app-login label {
+    width: 100px;
+    display: inline-block;
+    text-align: right;
+}
+.app-login input {
+    width: 220px;
+    padding-left: 10px;
+    border-radius: 2px;
+    border: 1px solid #ccc;
+}
+.app-login button {
+    width: 300px;
+    margin: 0 auto;
+}
+.app-login .btn-container {
+    text-align: center;
+    padding-bottom: 30px;
+}
+.app-login .error-container {
+    height: 35px;
+    margin-top: -10px;
+    margin-bottom: 10px;
+    text-indent: 105px;
+    overflow: hidden;
+}
+
+/*导航模块*/
+.nav h3{
+    font-size: 18px;
+}
+.nav>ul>li{
+    margin-bottom: 20px;
+}
+.nav ul ul{
+    margin-left: 22px;
+    margin-top: 10px;
+}
+.nav ul ul li{
+    line-height: 28px;
+
+}
+
+
+/* 用户提交页面 */
+.main-inner {
+    padding: 30px;
+}
+.main-inner h2 {
+    font-size: 28px;
+    border-bottom: 1px solid #efefef;
+    line-height: 60px;
+    margin-bottom: 30px;
+}
+.main-inner .row {
+    height: 60px;
+}
+.main-inner .col-lg-3 {
+    text-align: right;
+}
+.main-inner .user-detail .col-lg-2 , .app-news-detail .col-lg-2{
+    text-align: right;
+    font-size: 16px;
+}
+.app-create-news .main-inner .col-lg-2{
+    text-align: right;
+}
+.app-news-list .main-inner .col-lg-3{
+    text-align: left;
+}
+
+/*用户列表模块*/
+.list-title{
+    font-weight: bold;
+    font-size: 14px;
+}
+
+/*主页面*/
+.app-main h2{
+    margin: 0;
+    padding: 30px;
+    font-size: 20px;
+    border-bottom: 1px solid #efefef;
+}
+.app-main .app-main-t{
+    height:180px;
+    width:100%;
+    border-bottom: 1px solid #efefef;
+}
+.app-main .app-main-t .col-lg-2{
+    position: relative;
+    background:#F9FAFC;
+    height:180px;
+    padding-top: 110px;
+    text-align: center;
+}
+.app-main .app-main-t .col-lg-2 img{
+    position: absolute;
+    left: 50%;
+    top: 40%;
+    width:66px;
+    height:66px;
+    margin-left: -33px;
+    margin-top: -33px;
+    border-radius: 200px;
+    background:url(../images/me.png) no-repeat;
+    cursor: pointer;
+}
+.app-main .app-main-t .col-lg-2 span{
+    font-size: 16px;
+}
+.app-main .app-main-t .col-lg-2 p{
+    margin-top: -10px;
+    color: #0066CC;
+}
+.app-main .app-main-t .col-lg-2 p i{
+    font-style: normal;
+    font-size: 8px;
+    color: #fff;
+    background: #ff9900;
+    border-radius: 3px;
+    padding: 1px 2px;
+    display: inline-block;
+    line-height: 12px;
+    text-align: center;
+    margin-left: 3px;
+}
+.app-main .app-main-t .col-lg-4{
+    height:180px;
+    padding-top: 38px;
+    padding-left: 30px;
+}
+.app-main .app-main-t span{
+    display: block;
+    font-size: 12px;
+    margin-bottom: 20px;
+}
+.app-main .app-main-t  h3{
+    font-size: 26px;
+}
+.app-main .app-main-t h3 i{
+    font-style: normal;
+    font-size: 18px;
+    
+}
+.app-main .app-main-t  h3 em{
+    font-style: normal;
+    color:#999;
+    font-size: 12px;
+    margin-left: 5px;
+}
+.app-main .app-main-t .center_link{
+    margin-top: 25px;
+    height:24px;
+    line-height: 24px;
+}
+.app-main .app-main-t .center_link .btn-a{
+    display: block;
+    float: left;
+    font-size: 12px;
+    color:#fff;
+    width:50px;
+    height:24px;
+    line-height: 24px;
+    text-align: center;
+    background:#0099CC;
+    border-radius: 0;
+}
+.app-main .app-main-t .center_link a{
+    float: left;
+    margin-right: 12px;
+    font-size: 12px;
+}
+.app-main .app-main-t .center_link a b{
+    font-weight: normal;
+    margin-left: 5px;
+    color:#000;
+}
+.app-main .app-main-t .center_link span{
+    float: left;
+    margin-right: 12px;
+    font-size: 12px;
+    color:#cecece;
+}
+
+.app-main-b{
+    width:100%;
+    padding: 0 20px;
+}
+.app-main-b h4{
+    height:60px;
+    line-height: 60px;
+    border-bottom: 1px solid #efefef;
+    margin-bottom: 20px;
+}
+.app-main-b .row{
+    margin:0px;
+    height:0px;
+}
+.app-main-b .col-lg-3{
+    height:40px;
+    line-height: 40px;
+    padding-left: 30px;
+    border-radius: 4px;
+    margin-right: 20px;
+    background:#F9FAFC;
+    cursor: pointer;
+    margin-bottom: 15px;
+    color:#333;
+}
+.app-main-b .col-lg-3:hover{
+    background:#efefef;
+}
